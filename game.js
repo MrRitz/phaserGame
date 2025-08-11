@@ -15,7 +15,7 @@ class Level extends Phaser.Scene {
     preload() {
       this.load.spritesheet('playerRun', 'assets/ninjaFrog/run32x32.png', {frameHeight: 32, frameWidth: 32});
       this.load.spritesheet('playerJump', 'assets/ninjaFrog/jump32x32.png', {frameHeight:32, frameWidth: 32});
-      this.load.spritesheet('playerIdle', 'assets/ninjaFrog/idle.png', {frameHeight:32, frameWidth: 32});
+      this.load.spritesheet('playerIdle', './assets/ninjaFrog/idle.png', {frameHeight:32, frameWidth: 32});
       this.load.spritesheet('playerHit', 'assets/ninjaFrog/hit32x32.png', { frameHeight: 32, frameWidth: 32})
       this.load.spritesheet('apple', 'assets/apple544x32.png', {frameHeight: 32, frameWidth: 32});
       this.load.spritesheet('goal', 'assets/end64x64.png', {frameHeight: 64, frameWidth: 64});
